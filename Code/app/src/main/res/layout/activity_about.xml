@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.ssahai.institutionalresearch.AboutActivity">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logo"
+        android:paddingBottom="0dp"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="0dp"
+        />
+
+    <TextView android:text="Institutional \nResearch"
+        android:layout_width="wrap_content"
+        android:textSize="10dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:id="@+id/logo_text"
+
+        />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="50dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+
+
+
+            <TextView android:text="Mission Statement" android:layout_width="wrap_content"
+                android:textSize="30dp"
+           android:gravity="left"
+                android:layout_marginTop="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/headline" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+\n\n
+        The mission of the office of Institutional Research is to facilitate institutional planning and decision making by providing university administration, staff, and faculty with strategic data.
+\n\n\n
+The Office accomplishes this by:
+\n\n
+• Providing descriptive and predictive statistical information to the university, governmental authorities, accrediting bodies, and other key Texas Tech stakeholders.
+\n\n
+• Modeling, compiling, analyzing, and interpreting various data that inform institutional strategic initiatives, promote accountability, and foster a data-driven culture.
+\n\n
+• Designing, disseminating, and analyzing numerous institutional surveys.
+\n\n
+• Providing relevant and accurate data to the University community.
+
+"
+                android:id="@+id/textView1"
+                android:layout_below="@+id/headline"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+
+            <TextView android:text="\n\n Vision Statement" android:layout_width="wrap_content"
+                android:textSize="30dp"
+                android:gravity="left"
+                android:layout_below="@+id/textView1"
+                android:layout_height="wrap_content"
+                android:id="@+id/headline2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/textView2"
+
+                android:text="
+ \n
+ • Be recognized for its excellent customer services.
+ \n\n
+ • Provide reporting for informed decision making that is unbiased and of the highest quality.
+ \n\n
+ • Provide timely information in ways that are both accessible and useful while using state of the art technology.
+        "
+                android:layout_below="@+id/headline2"
+                android:layout_alignParentLeft="true"
+                android:gravity="left"
+                android:layout_alignParentStart="true" />
+
+
+
+
+            <TextView android:text="\n\n Departmental Values:" android:layout_width="wrap_content"
+                android:textSize="30dp"
+                android:gravity="left"
+                android:layout_below="@+id/textView2"
+                android:layout_height="wrap_content"
+                android:id="@+id/headline3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+
+                android:text="
+ \n
+ • Professional Ethics
+ \n
+ • Customer Service
+ \n
+ • Reliability
+ \n
+ • Team work
+ \n
+ • Confidentiality
+        "
+                android:layout_below="@+id/headline3"
+                android:layout_alignParentLeft="true"
+                android:gravity="left"
+                android:layout_alignParentStart="true" />
+
+
+        </LinearLayout>
+
+
+</ScrollView>
+
+</RelativeLayout>

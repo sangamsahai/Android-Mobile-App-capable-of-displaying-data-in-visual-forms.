@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">TTU IR</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_graph">GraphActivity</string>
+
+
+
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">AChartEngineCombinedCustomLayoutClick</string>
+    <string name="str_tv_title">Applied / Admitted</string>
+    <string name="title_activity_staff">Staff</string>
+    <string name="title_activity_about">About Us</string>
+    <string name="title_activity_contact">ContactActivity</string>
+
+    <string name="email">Email Us</string>
+    <string name="title_activity_grid">GridActivity</string>
+    <string name="title_activity_pie">PieActivity</string>
+    <string name="title_activity_swipe">SwipeActivity</string>
+    <string name="title_activity_mpchart">MPChartActivity</string>
+    <string name="title_activity_mp_chart_pie">MpChartPieActivity</string>
+    <string name="title_activity_dynamic_fragment_swapping">DynamicFragmentSwappingActivity</string>
+    <string name="title_activity_reference_static_fragment">ReferenceStaticFragmentActivity</string>
+    <string name="title_activity_view_pager__new">ViewPager_NewActivity</string>
+    <string name="title_activity_swipe__activity__test">Swipe_Activity_Test</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_factbook_pager">FactbookPager</string>
+    <string name="title_activity_trends_pager">TrendsPager</string>
+
+</resources>
